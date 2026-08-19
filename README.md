@@ -150,5 +150,9 @@ prepai/
 ## Developer
 
 Vikas Yadav
-/n Nutan College Of Engineering And Research
-/n 2025-2026
+
+
+Nutan College Of Engineering And Research
+
+
+2025-2026
