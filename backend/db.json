@@ -1,0 +1,2994 @@
+{
+  "users": [
+    {
+      "id": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "name": "Rahul Yadav",
+      "email": "rahuly9856@gmail.com",
+      "password": "$2a$10$HwidPwKjpLsnuOdeVyD7jOjCkyRbZQyg0Hv45.A/kjAG3jYEiYoQG",
+      "createdAt": "2026-03-28T09:11:08.859Z"
+    },
+    {
+      "id": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "name": "vikas  yadav",
+      "email": "vikas10abc@gmail.com",
+      "password": "$2a$10$ydCTXeOzUN078DncJiG33.Va7Nok/W/3VubLbKEppN576xBh.PCNm",
+      "createdAt": "2026-04-01T05:02:26.289Z"
+    },
+    {
+      "id": "6a508438-5618-4356-b457-8eafb650938c",
+      "name": "Test User",
+      "email": "test123@test.com",
+      "password": "$2a$10$LXxn1xpDngOI3SZ/DrsAM.rrJR3wmyw4qg.ktfxKbdKwXBPQ1PGwK",
+      "createdAt": "2026-04-01T05:34:02.820Z"
+    },
+    {
+      "id": "1540a49c-9f90-4d14-a0d2-359bf71362d3",
+      "name": "Test User",
+      "email": "newtest@gmail.com",
+      "password": "$2a$10$2ix7RPj/Dm.CgGL7ffiINuWp.HGjtJSBh8Gc7eluGvYTQsK2LV2sO",
+      "createdAt": "2026-04-01T05:51:56.216Z"
+    },
+    {
+      "id": "ae979230-a088-4e50-9c11-c84624dbb106",
+      "name": "Test",
+      "email": "abc123@test.com",
+      "password": "$2a$10$NKBRZkzejFKebtIR0EglXegLzrDzCOpgGLb.z1BTdySfqIWQLMcQq",
+      "createdAt": "2026-04-01T06:05:04.522Z"
+    },
+    {
+      "id": "f4a99f08-d9f0-4807-b4c4-298392dfc6df",
+      "name": "Test",
+      "email": "brand_new_xyz@test.com",
+      "password": "$2a$10$.xhUMeJyu2DAKXJVe1AGa.D7diZPt3fHj6ooSktl0Fegl.YVfr1Wm",
+      "createdAt": "2026-04-01T06:06:00.704Z"
+    },
+    {
+      "id": "823f0fb2-c1db-47d2-a7ac-deda67a2d29a",
+      "name": "Test User",
+      "email": "xyz999@test.com",
+      "password": "$2a$10$FDTZTjmbmcZvmXhHFPcBde2IkoivpoIP1pSLce0EwFlqtM2d9xqpC",
+      "createdAt": "2026-04-01T06:16:23.817Z"
+    },
+    {
+      "id": "9a27ff38-288c-4e5f-947b-9c161e8b16c5",
+      "name": "Test User",
+      "email": "newuser99@test.com",
+      "password": "$2a$10$A2Y8uywib1lbqVSJ1DL0COAng2DThIoHHNhXNm4UFrdOIabO/X8DK",
+      "createdAt": "2026-04-01T06:18:58.993Z"
+    },
+    {
+      "id": "0a3657e2-1981-4bd3-aa15-7d8ceb272efa",
+      "name": "vikas  yadav",
+      "email": "vikas10cba@gmail.com",
+      "password": "$2a$10$l3Ge4nv/s6tICvom9mw6buAr7BKwcRJRO0d3izUZmLI23lIMDAqLa",
+      "createdAt": "2026-08-18T10:43:03.641Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "8652984c-2152-4454-8d38-287734b56185",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "java",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is the difference between JDK, JRE, and JVM?",
+          "difficulty": "easy",
+          "topic": "Basics",
+          "keywords": [
+            "JDK",
+            "JRE",
+            "JVM",
+            "compiler",
+            "runtime",
+            "bytecode",
+            "platform",
+            "Java"
+          ],
+          "tip": "JDK includes JRE, JRE includes JVM."
+        },
+        {
+          "q": "Explain String, StringBuilder, and StringBuffer.",
+          "difficulty": "easy",
+          "topic": "Strings",
+          "keywords": [
+            "immutable",
+            "mutable",
+            "StringBuilder",
+            "StringBuffer",
+            "synchronized",
+            "thread",
+            "performance",
+            "pool",
+            "intern"
+          ],
+          "tip": "StringBuilder for single-thread, StringBuffer for multi-thread."
+        },
+        {
+          "q": "What is the difference between an interface and an abstract class?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "interface",
+            "abstract",
+            "implement",
+            "extend",
+            "multiple",
+            "inherit",
+            "default",
+            "body",
+            "contract"
+          ],
+          "tip": "Since Java 8, interfaces can have default methods."
+        },
+        {
+          "q": "What are the access modifiers in Java?",
+          "difficulty": "easy",
+          "topic": "Basics",
+          "keywords": [
+            "public",
+            "private",
+            "protected",
+            "default",
+            "package",
+            "access",
+            "class",
+            "method",
+            "field"
+          ],
+          "tip": "Cover all 4 and their visibility scope."
+        },
+        {
+          "q": "Explain OOP concepts with examples in Java.",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "class",
+            "object",
+            "inheritance",
+            "polymorphism",
+            "encapsulation",
+            "abstraction",
+            "method",
+            "override"
+          ],
+          "tip": "Give a real-world analogy like Vehicle → Car."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "JDK (Java Development Kit) is a software development kit used by developers to write, compile, and debug Java applications, containing both the JRE and development tools like the compiler and debugger. \n\nJRE (Java Runtime Environment) is a software package used by end-users to run pre-compiled Java applications, consisting of the JVM and class libraries but lacking development tools. \n\nJVM (Java Virtual Machine) is the core engine that provides the runtime environment to execute Java bytecode, converting it into machine-specific code; it is an abstract specification implemented by the JRE. \n\n| Component | Full Form | Primary Purpose | Key Contents | Platform Dependency | | :--- | :--- | :--- | :--- :--- | | JDK | Java Development Kit | Development | JRE + Compiler + Debugger | Platform-dependent | | JRE | Java Runtime Environment | Execution | JVM + Class Libraries | Platform-dependent | | JVM | Java Virtual Machine | Bytecode Execution | Runtime Engine (Interpreter/JIT) | Platform-dependent (implementation) |\n\nThe relationship is hierarchical: JDK = JRE + Development Tools, JRE = JVM + Libraries, and JVM is the underlying engine that makes Java platform-independent by executing bytecode.",
+          "timeTaken": 51,
+          "score": 100,
+          "feedback": "🌟 Outstanding answer! Excellent depth and clarity.  🎯 Interviewer tip: JDK includes JRE, JRE includes JVM.",
+          "keywords": [
+            "JDK",
+            "JRE",
+            "JVM",
+            "compiler",
+            "runtime",
+            "bytecode"
+          ],
+          "answeredAt": "2026-03-28T09:50:49.456Z"
+        }
+      ],
+      "status": "active",
+      "startedAt": "2026-03-28T09:49:57.518Z",
+      "total": 5
+    },
+    {
+      "id": "5c9bd35a-5da9-4514-aa7b-36c6c855eb67",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "cpp",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What are references in C++? How are they different from pointers?",
+          "difficulty": "easy",
+          "topic": "References",
+          "keywords": [
+            "reference",
+            "pointer",
+            "alias",
+            "null",
+            "reassign",
+            "dereference",
+            "const",
+            "parameter",
+            "value"
+          ],
+          "tip": "References can't be null, can't be reassigned, and don't need *."
+        },
+        {
+          "q": "What is a struct vs a class in C++?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "struct",
+            "class",
+            "access",
+            "default",
+            "public",
+            "private",
+            "member",
+            "object",
+            "difference"
+          ],
+          "tip": "Only difference is default access: struct is public, class is private."
+        },
+        {
+          "q": "Explain pointers in C/C++.",
+          "difficulty": "easy",
+          "topic": "Pointers",
+          "keywords": [
+            "pointer",
+            "address",
+            "memory",
+            "dereference",
+            "null",
+            "reference",
+            "stack",
+            "heap",
+            "&",
+            "*"
+          ],
+          "tip": "Explain & (address-of) and * (dereference) clearly."
+        },
+        {
+          "q": "What is the difference between C and C++?",
+          "difficulty": "easy",
+          "topic": "Basics",
+          "keywords": [
+            "C++",
+            "OOP",
+            "class",
+            "object",
+            "function overloading",
+            "procedural",
+            "structured",
+            "namespace",
+            "template"
+          ],
+          "tip": "C++ is a superset of C with OOP, templates, and STL."
+        },
+        {
+          "q": "What is the difference between stack and heap memory?",
+          "difficulty": "easy",
+          "topic": "Memory",
+          "keywords": [
+            "stack",
+            "heap",
+            "dynamic",
+            "static",
+            "automatic",
+            "scope",
+            "free",
+            "allocate",
+            "lifetime"
+          ],
+          "tip": "Stack is auto-managed; heap is manually managed (or RAII)."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-03-28T10:34:03.088Z",
+      "total": 5
+    },
+    {
+      "id": "cd30862c-851e-442a-8bae-e290f946efc4",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "cpp",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is the difference between stack and heap memory?",
+          "difficulty": "easy",
+          "topic": "Memory",
+          "keywords": [
+            "stack",
+            "heap",
+            "dynamic",
+            "static",
+            "automatic",
+            "scope",
+            "free",
+            "allocate",
+            "lifetime"
+          ],
+          "tip": "Stack is auto-managed; heap is manually managed (or RAII)."
+        },
+        {
+          "q": "What is a struct vs a class in C++?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "struct",
+            "class",
+            "access",
+            "default",
+            "public",
+            "private",
+            "member",
+            "object",
+            "difference"
+          ],
+          "tip": "Only difference is default access: struct is public, class is private."
+        },
+        {
+          "q": "Explain pointers in C/C++.",
+          "difficulty": "easy",
+          "topic": "Pointers",
+          "keywords": [
+            "pointer",
+            "address",
+            "memory",
+            "dereference",
+            "null",
+            "reference",
+            "stack",
+            "heap",
+            "&",
+            "*"
+          ],
+          "tip": "Explain & (address-of) and * (dereference) clearly."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "........",
+          "timeTaken": 10,
+          "score": 33,
+          "feedback": "❌ The answer needs significant improvement. Review this topic.  💡 Tip: Aim for 50–100 words. Interviewers want explanations, not one-liners.  🎯 Interviewer tip: Stack is auto-managed; heap is manually managed (or RAII).",
+          "keywords": [],
+          "answeredAt": "2026-03-28T10:34:54.614Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "stcuct is keyword to create stucture and class is the combination of variables and methods",
+          "timeTaken": 98,
+          "score": 34,
+          "feedback": "❌ The answer needs significant improvement. Review this topic.  💡 Tip: Aim for 50–100 words. Interviewers want explanations, not one-liners.  📌 Try to mention: object, access specifier, public, private.  🎯 Interviewer tip: Only difference is default access: struct is public, class is private.",
+          "keywords": [
+            "class"
+          ],
+          "answeredAt": "2026-03-28T10:36:22.479Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "......",
+          "timeTaken": 192,
+          "score": 0,
+          "feedback": "❌ No answer provided. Always attempt even a partial explanation — partial marks are available.",
+          "keywords": [],
+          "answeredAt": "2026-03-28T10:37:56.868Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-03-28T10:34:44.041Z",
+      "total": 3,
+      "finishedAt": "2026-03-28T10:37:59.542Z"
+    },
+    {
+      "id": "dcadc4e8-2431-4857-b762-d5aac04eb5f7",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "javascript",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is var let and const difference?",
+          "difficulty": "easy",
+          "topic": "Functions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What are JavaScript data types?",
+          "difficulty": "easy",
+          "topic": "DOM",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is JSON?",
+          "difficulty": "easy",
+          "topic": "DOM",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is addEventListener?",
+          "difficulty": "easy",
+          "topic": "Functions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is try-catch?",
+          "difficulty": "easy",
+          "topic": "Arrays",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:13:29.258Z",
+      "total": 5
+    },
+    {
+      "id": "282c7a95-25aa-4d03-b5fb-f644b3fb9c1b",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "javascript",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is event bubbling?",
+          "difficulty": "easy",
+          "topic": "Variables",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is hoisting?",
+          "difficulty": "easy",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is destructuring?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is NaN?",
+          "difficulty": "easy",
+          "topic": "DOM",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "Explain fiber architecture",
+          "difficulty": "hard",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:19:53.733Z",
+      "total": 5
+    },
+    {
+      "id": "d0de557f-d878-4195-b60c-bb0f96edaeb3",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "nodejs",
+      "level": "3years",
+      "questions": [
+        {
+          "q": "What is nodemon?",
+          "difficulty": "medium",
+          "topic": "HTTP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is Express?",
+          "difficulty": "easy",
+          "topic": "Cluster",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is the event loop?",
+          "difficulty": "easy",
+          "topic": "Streams",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "How does Node.js handle concurrency?",
+          "difficulty": "hard",
+          "topic": "HTTP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is connection pooling?",
+          "difficulty": "medium",
+          "topic": "Testing",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:20:05.028Z",
+      "total": 5
+    },
+    {
+      "id": "f4e19f74-0ed6-4be8-9040-1760d1e46b69",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "nodejs",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is require vs import?",
+          "difficulty": "easy",
+          "topic": "Database",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is the event loop?",
+          "difficulty": "easy",
+          "topic": "Streams",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is Node.js?",
+          "difficulty": "easy",
+          "topic": "Express",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is a module?",
+          "difficulty": "easy",
+          "topic": "Modules",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is package.json?",
+          "difficulty": "easy",
+          "topic": "HTTP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:24:11.513Z",
+      "total": 5
+    },
+    {
+      "id": "07fe23f9-23df-4f79-ba22-a0635f8276b5",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "sql",
+      "level": "2years",
+      "questions": [
+        {
+          "q": "What is SQL?",
+          "difficulty": "easy",
+          "topic": "Queries",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is SELECT statement?",
+          "difficulty": "easy",
+          "topic": "Joins",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What are window functions?",
+          "difficulty": "hard",
+          "topic": "Normalization",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What are ACID properties?",
+          "difficulty": "medium",
+          "topic": "Indexes",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is WHERE clause?",
+          "difficulty": "easy",
+          "topic": "Indexes",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:38:48.597Z",
+      "total": 5
+    },
+    {
+      "id": "ffa8da52-1acd-4741-8717-43fdefa68f12",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "os",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is a deadlock?",
+          "difficulty": "medium",
+          "topic": "Processes",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to os."
+        },
+        {
+          "q": "What is user space vs kernel space?",
+          "difficulty": "easy",
+          "topic": "Security",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to os."
+        },
+        {
+          "q": "What is DNS?",
+          "difficulty": "easy",
+          "topic": "Synchronization",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to os."
+        },
+        {
+          "q": "What is a system call?",
+          "difficulty": "easy",
+          "topic": "Memory",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to os."
+        },
+        {
+          "q": "What is a mutex?",
+          "difficulty": "medium",
+          "topic": "Memory",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to os."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:38:57.348Z",
+      "total": 5
+    },
+    {
+      "id": "aa6fbb18-5906-403a-ae7c-f8b17f6bc34b",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "sql",
+      "level": "3years",
+      "questions": [
+        {
+          "q": "What is a subquery?",
+          "difficulty": "medium",
+          "topic": "Aggregation",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is isolation level?",
+          "difficulty": "hard",
+          "topic": "Optimization",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is table partitioning?",
+          "difficulty": "hard",
+          "topic": "Aggregation",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is a subquery?",
+          "difficulty": "medium",
+          "topic": "Window Functions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is SELECT statement?",
+          "difficulty": "easy",
+          "topic": "Joins",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:39:04.207Z",
+      "total": 5
+    },
+    {
+      "id": "4c76b509-d428-48de-9f40-afc286c97dc8",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "system_design",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is a proxy?",
+          "difficulty": "easy",
+          "topic": "API Design",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is a REST API?",
+          "difficulty": "easy",
+          "topic": "Load Balancing",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is a microservice?",
+          "difficulty": "easy",
+          "topic": "Availability",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is horizontal vs vertical scaling?",
+          "difficulty": "easy",
+          "topic": "Caching",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "Design a distributed cache",
+          "difficulty": "hard",
+          "topic": "Availability",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is database sharding?",
+          "difficulty": "medium",
+          "topic": "Databases",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is HTTP vs HTTPS?",
+          "difficulty": "easy",
+          "topic": "Caching",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        },
+        {
+          "q": "What is an API gateway?",
+          "difficulty": "medium",
+          "topic": "API Design",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to system_design."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:39:13.573Z",
+      "total": 8
+    },
+    {
+      "id": "033aa09e-afe5-44db-bcca-121c349200a7",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "mongodb",
+      "level": "3years",
+      "questions": [
+        {
+          "q": "What is a compound index strategy?",
+          "difficulty": "hard",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What is read concern?",
+          "difficulty": "medium",
+          "topic": "Documents",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What is schema validation?",
+          "difficulty": "medium",
+          "topic": "Sharding",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What is sharding in MongoDB?",
+          "difficulty": "hard",
+          "topic": "Documents",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "How does MongoDB handle transactions?",
+          "difficulty": "hard",
+          "topic": "Sharding",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:39:38.346Z",
+      "total": 5
+    },
+    {
+      "id": "0f7a32c8-abcf-4bb8-b8bc-6dec668bad99",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "mongodb",
+      "level": "3years",
+      "questions": [
+        {
+          "q": "How does MongoDB handle transactions?",
+          "difficulty": "hard",
+          "topic": "Sharding",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What are indexes in MongoDB?",
+          "difficulty": "medium",
+          "topic": "Documents",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What is MongoDB?",
+          "difficulty": "easy",
+          "topic": "Documents",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "How does MongoDB handle transactions?",
+          "difficulty": "hard",
+          "topic": "Aggregation",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        },
+        {
+          "q": "What is a shard key strategy?",
+          "difficulty": "hard",
+          "topic": "CRUD",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to mongodb."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "MongoDB handles transactions by grouping multiple operations across documents and collections into a single atomic unit of work, ensuring that either all changes are applied or none are.  These transactions adhere to ACID properties (Atomicity, Consistency, Isolation, and Durability), guaranteeing data integrity even during failures or concurrent access.",
+          "timeTaken": 72,
+          "score": 72,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: commit, rollback, lock.  🎯 Interviewer tip: Explain with practical examples related to mongodb.",
+          "keywords": [
+            "ACID",
+            "atomicity",
+            "consistency",
+            "isolation",
+            "durability"
+          ],
+          "answeredAt": "2026-04-01T05:44:36.247Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "Indexes in MongoDB are special data structures that store a subset of a collection’s data in an organized, easy-to-traverse form—typically using a B-tree structure—to significantly improve query performance.  Without indexes, MongoDB must perform a full collection scan, examining every document to find matches, which is inefficient for large datasets. An index stores the values of specified fields in sorted order, along with references to the corresponding documents, allowing MongoDB to quickly locate, filter, and sort data. Indexes can be created on single fields, multiple fields (compound indexes), arrays (multikey indexes), geospatial data, text, or with special properties like uniqueness and time-to-live (TTL). While they enhance read performance, indexes incur overhead on write operations, as each insert, update, or delete must also update the relevant indexes.",
+          "timeTaken": 115,
+          "score": 72,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: btree, hash, clustered, non-clustered.  🎯 Interviewer tip: Explain with practical examples related to mongodb.",
+          "keywords": [
+            "index",
+            "performance",
+            "scan"
+          ],
+          "answeredAt": "2026-04-01T05:45:19.176Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "MongoDB is a document-oriented NoSQL database that stores data in flexible, JSON-like documents (BSON format), allowing for dynamic schemas and efficient mapping to application code.  Unlike traditional relational databases, it uses collections (similar to tables) that can hold documents with varying structures, enabling rapid iteration and handling of unstructured or semi-structured data. MongoDB supports powerful features such as ad-hoc queries, indexing, horizontal scaling via sharding, replication for high availability, and multi-document ACID transactions.  It is widely used for applications requiring scalability and flexibility, including real-time analytics, content management, IoT, and mobile apps. MongoDB is available as open-source software and also offered as a fully managed cloud service called MongoDB Atlas.",
+          "timeTaken": 170,
+          "score": 75,
+          "feedback": "✅ Strong answer! You covered the key concepts well.  🎯 Interviewer tip: Explain with practical examples related to mongodb.",
+          "keywords": [],
+          "answeredAt": "2026-04-01T05:46:14.094Z"
+        },
+        {
+          "questionIndex": 3,
+          "answer": "MongoDB handles transactions by supporting multi-document ACID (Atomicity, Consistency, Isolation, Durability) transactions, introduced in version 4.0 for replica sets and extended in 4.2 to sharded clusters.  Transactions must be executed within a session using startTransaction() or the withTransaction() helper, which ensures all operations either succeed together or are rolled back entirely. They support snapshot isolation by default, ensuring a consistent view of data during the transaction. Operations within a transaction are not visible outside until committed, and they are subject to a default 60-second time limit, a 16MB size limit, and a maximum of 1,000 modified documents. While powerful for complex operations like financial transfers or order processing, transactions should be kept short to minimize performance impact and lock contention",
+          "timeTaken": 200,
+          "score": 94,
+          "feedback": "🌟 Outstanding answer! Excellent depth and clarity.  🎯 Interviewer tip: Explain with practical examples related to mongodb.",
+          "keywords": [
+            "ACID",
+            "atomicity",
+            "consistency",
+            "isolation",
+            "durability",
+            "commit"
+          ],
+          "answeredAt": "2026-04-01T05:46:44.208Z"
+        },
+        {
+          "questionIndex": 4,
+          "answer": "A shard key strategy in MongoDB involves selecting a field or combination of fields to determine how data is partitioned and distributed across shards in a cluster.  The goal is to achieve even data distribution and efficient query performance.  Key considerations include:\n\nCardinality: High-cardinality shard keys (many unique values) allow for more chunks and better distribution. \nFrequency: Avoid keys where values occur too frequently, as they can create imbalanced chunks. \nMonotonic change: Keys that increase or decrease monotonically (like timestamps) can cause write hotspots; hashed sharding is often preferred in such cases.",
+          "timeTaken": 234,
+          "score": 75,
+          "feedback": "✅ Strong answer! You covered the key concepts well.  🎯 Interviewer tip: Explain with practical examples related to mongodb.",
+          "keywords": [],
+          "answeredAt": "2026-04-01T05:47:17.736Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-04-01T05:43:23.322Z",
+      "total": 5,
+      "finishedAt": "2026-04-01T05:47:20.779Z"
+    },
+    {
+      "id": "bffebb03-b57f-4097-9d65-31163ab343b6",
+      "userId": "fff50825-418a-40f3-b7c9-82ab693f055e",
+      "topic": "hr",
+      "level": "5plus",
+      "questions": [
+        {
+          "q": "Describe a time you had to pivot strategy mid-project",
+          "difficulty": "hard",
+          "topic": "Communication",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to hr."
+        },
+        {
+          "q": "Describe your biggest professional achievement",
+          "difficulty": "medium",
+          "topic": "Conflict",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to hr."
+        },
+        {
+          "q": "Tell me about a time you had to learn something new quickly",
+          "difficulty": "medium",
+          "topic": "Problem Solving",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to hr."
+        },
+        {
+          "q": "Tell me about a time you went above and beyond",
+          "difficulty": "medium",
+          "topic": "Weaknesses",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to hr."
+        },
+        {
+          "q": "Describe your ideal work environment",
+          "difficulty": "medium",
+          "topic": "Culture",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to hr."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T05:55:54.594Z",
+      "total": 5
+    },
+    {
+      "id": "10dd55fd-cee1-4dcc-838a-23a83549e2dc",
+      "userId": "9a27ff38-288c-4e5f-947b-9c161e8b16c5",
+      "topic": "nodejs",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is os module?",
+          "difficulty": "easy",
+          "topic": "HTTP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is require vs import?",
+          "difficulty": "easy",
+          "topic": "Database",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is Express?",
+          "difficulty": "easy",
+          "topic": "Cluster",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is the event loop?",
+          "difficulty": "easy",
+          "topic": "Authentication",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is EventEmitter?",
+          "difficulty": "medium",
+          "topic": "HTTP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T06:19:19.996Z",
+      "total": 5
+    },
+    {
+      "id": "f4d08a8f-e5dd-4a5c-bb78-f78ab7291280",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "python",
+      "level": "1year",
+      "questions": [
+        {
+          "q": "What is a lambda function?",
+          "difficulty": "easy",
+          "topic": "Type Hints",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is a function in Python?",
+          "difficulty": "easy",
+          "topic": "Libraries",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is a module?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What are *args and **kwargs?",
+          "difficulty": "easy",
+          "topic": "Async",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "Explain Python memory management",
+          "difficulty": "hard",
+          "topic": "Testing",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T09:10:27.955Z",
+      "total": 5
+    },
+    {
+      "id": "70c71b6e-9673-4088-b5db-4ff3a9ea2781",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "typescript",
+      "level": "1year",
+      "questions": [
+        {
+          "q": "What is intersection type?",
+          "difficulty": "easy",
+          "topic": "Generics",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to typescript."
+        },
+        {
+          "q": "What is type assertion?",
+          "difficulty": "easy",
+          "topic": "Config",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to typescript."
+        },
+        {
+          "q": "What is non-null assertion?",
+          "difficulty": "easy",
+          "topic": "Advanced Types",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to typescript."
+        },
+        {
+          "q": "What is an interface?",
+          "difficulty": "easy",
+          "topic": "Decorators",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to typescript."
+        },
+        {
+          "q": "What is unknown vs any?",
+          "difficulty": "easy",
+          "topic": "Type Guards",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to typescript."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-01T10:59:46.924Z",
+      "total": 5
+    },
+    {
+      "id": "65698379-5bdd-4433-bc78-50be64bfd20c",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "javascript",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is the ternary operator?",
+          "difficulty": "easy",
+          "topic": "Events",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is hoisting?",
+          "difficulty": "easy",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is the spread operator?",
+          "difficulty": "easy",
+          "topic": "Async",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "The ternary operator is a compact way to write a simple if–else condition in a single line of code.\n\n🔹 Basic idea\n\nIt evaluates a condition and returns one of two values:\n\none if the condition is true\nanother if the condition is false\n🔹 Syntax\ncondition ? value_if_true : value_if_false;\n🔹 Example (JavaScript)\nlet age = 18;\nlet result = (age >= 18) ? \"Adult\" : \"Minor\";\nconsole.log(result); // Adult\n🔹 Equivalent if–else\nlet result;\nif (age >= 18) {\n  result = \"Adult\";\n} else {\n  result = \"Minor\";\n}\n🔹 Why use it?\nMakes code shorter and cleaner for simple conditions\nUseful for assignments and return statements",
+          "timeTaken": 72,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for javascript.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:45:01.099Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "Hoisting is a behavior in languages like JavaScript where variable and function declarations are moved to the top of their scope during compilation, before the code actually runs.\n\n🔹 What does that mean?\n\nIt means you can sometimes use a variable or function before it is declared in your code.\n\n🔹 Example (Variables with var)\nconsole.log(x); // undefined\nvar x = 5;\nWhat actually happens internally:\nvar x;\nconsole.log(x); // undefined\nx = 5;\n\n👉 The declaration is hoisted, but the assignment stays in place.\n\n🔹 Example (Functions)\ngreet(); // Works!\n\nfunction greet() {\n  console.log(\"Hello!\");\n}\n\n👉 Entire function declarations are hoisted, so you can call them before defining them.\n\n🔹 Important differences\n1. var (hoisted, initialized as undefined)\nconsole.log(a); // undefined\nvar a = 10;\n2. let and const (hoisted but not initialized)\nconsole.log(b); // ❌ ReferenceError\nlet b = 10;",
+          "timeTaken": 108,
+          "score": 89,
+          "feedback": "🌟 Outstanding answer! Excellent depth and clarity.  🎯 Interviewer tip: Explain with practical examples for javascript.",
+          "keywords": [
+            "var",
+            "let",
+            "const",
+            "declaration",
+            "top",
+            "function"
+          ],
+          "answeredAt": "2026-04-04T08:45:37.427Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "no",
+          "timeTaken": 117,
+          "score": 0,
+          "feedback": "❌ No answer provided. Always attempt even a partial explanation — partial marks are available.",
+          "keywords": [],
+          "answeredAt": "2026-04-04T08:45:45.746Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-04-04T08:43:02.679Z",
+      "total": 3,
+      "finishedAt": "2026-04-04T08:45:48.152Z"
+    },
+    {
+      "id": "eac81794-0117-4da2-8e7a-f0ccccfb722a",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "nodejs",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is a module?",
+          "difficulty": "easy",
+          "topic": "Modules",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is __dirname?",
+          "difficulty": "easy",
+          "topic": "Event Loop",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is __dirname?",
+          "difficulty": "easy",
+          "topic": "Express",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "A module is a self-contained piece of code that is organized to perform a specific task and can be reused in different parts of a program or in other programs.\n\n🔹 Simple definition\n\nA module = file or block of code with its own functionality, which can be imported and used elsewhere.\n\n🔹 Why modules are used\n✅ Organize large code into smaller parts\n✅ Improve readability and maintainability\n✅ Enable code reuse\n✅ Avoid global scope pollution\n🔹 Example (JavaScript)\n📁 math.js (module)\nexport function add(a, b) {\n  return a + b;\n}\n📁 app.js\nimport { add } from './math.js';\n\nconsole.log(add(2, 3)); // 5\n🔹 Types of modules (JavaScript)\n1. ES Modules (modern)\nexport const name = \"John\";\nimport { name } from './file.js';\n2. CommonJS (Node.js)\nmodule.exports = function() {};\nconst fn = require('./file');\n🔹 In simple words\n\nThink of a module like a toolbox 🧰:\n\nEach tool (function/variable) has a purpose\nYou only take what you need using import",
+          "timeTaken": 31,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:46:37.531Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "__dirname is a Node.js variable that gives the absolute path of the current file’s directory.\n\n🔹 Example\nconsole.log(__dirname);\n\n👉 Output: the folder path where the current file is located.\n\n🔹 In short\n\n__dirname = directory path of the current script",
+          "timeTaken": 58,
+          "score": 57,
+          "feedback": "⚠️  Partial answer. The core concept needs more explanation.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:47:04.560Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "__dirname is a special variable in Node.js that represents the absolute path of the directory where the currently executing file is located.\n\n🔹 What exactly is __dirname?\nIt is a global variable available in Node.js (you don’t need to import it)\nIt always returns the full directory path of the current file\nIt is not a function, just a string value\n🔹 Example\nconsole.log(__dirname);\n👉 Output (example):\n/Users/user/projects/my-app\n\nThis means your current file is inside the my-app folder.\n\n🔹 Why is it useful?\n1. Access files reliably\nconst path = require('path');\n\nconst filePath = path.join(__dirname, 'data.txt');\nconsole.log(filePath);\n\n👉 Ensures the correct file path regardless of where the script is run from.\n\n2. Avoid relative path issues\nconsole.log('./data.txt'); // depends on where you run the command\nconsole.log(__dirname);    // always correct directory\n\n👉 __dirname is consistent, while relative paths can break.\n\n3. Serve static files (common in servers)\napp.use(express.static(__dirname + '/public'));\n🔹 __dirname vs __filename\nVariable\tMeaning\n__dirname\tDirectory of current file\n__filename\tFull path including file name\nconsole.log(__filename);\n\n👉 Output example:\n\n/Users/user/projects/app/index.js\n🔹 Important notes\n1. Only in Node.js\nNot available in browsers\n2. Not available in ES Modules by default\n\nIf you use modern import syntax:\n\nimport path from 'path';\nimport { fileURLToPath } from 'url';\n\nconst __filename = fileURLToPath(import.meta.url);\nconst __dirname = path.dirname(__filename);\n🔹 In simple terms\n\nThink of __dirname like your current working folder location pinned to the file itself, not where you run the command.\n\n🔹 Summary\n__dirname gives the absolute directory path\nHelps with file handling and path management\nWorks only in Node.js (CommonJS by default)\nMore reliable than relative paths",
+          "timeTaken": 105,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:47:51.492Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-04-04T08:46:05.535Z",
+      "total": 3,
+      "finishedAt": "2026-04-04T08:47:53.476Z"
+    },
+    {
+      "id": "bbfc3d5b-2d59-4e39-b302-dc30de830fca",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "python",
+      "level": "2years",
+      "questions": [
+        {
+          "q": "What is Python?",
+          "difficulty": "easy",
+          "topic": "Basics",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is the descriptor protocol?",
+          "difficulty": "hard",
+          "topic": "Web",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is duck typing?",
+          "difficulty": "medium",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "Python is a high-level, interpreted programming language known for its simple syntax and readability.\n\n🔹 Simple definition\n\nPython is a language used to write programs, automate tasks, analyze data, and build applications.\n\n🔹 Key features\n✅ Easy to read and write (looks almost like English)\n✅ Interpreted (runs line by line, no need to compile)\n✅ Cross-platform (works on Windows, macOS, Linux)\n✅ Large standard library\n✅ Supports multiple styles (procedural, object-oriented, functional)\n🔹 Example\nprint(\"Hello, World!\")\n🔹 What can you do with Python?\n🌐 Web development (e.g., Django, Flask)\n📊 Data analysis & visualization\n🤖 Artificial Intelligence & Machine Learning\n🔧 Automation & scripting\n🎮 Game development\n🛠️ Software development\n🔹 Why Python is popular\nBeginner-friendly\nHuge community support\nUsed by big companies like Google, Netflix, and NASA\n🔹 In short\n\nPython = simple + powerful + versatile programming language",
+          "timeTaken": 37,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:48:48.857Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "The descriptor protocol in Python is a mechanism that lets you customize how attribute access works in objects.\n\n🔹 Simple definition\n\nA descriptor is any object that defines one or more of these methods:\n\n__get__()\n__set__()\n__delete__()\n\nThese methods control what happens when you get, set, or delete an attribute.\n\n🔹 Why it exists\n\nIt allows Python to:\n\nControl attribute access\nAdd logic like validation, computed values, or lazy loading\nPower features like properties, methods, and class variables\n🔹 Basic example\nclass MyDescriptor:\n    def __get__(self, instance, owner):\n        print(\"Getting value\")\n        return 42\n\n    def __set__(self, instance, value):\n        print(\"Setting value:\", value)\n\nclass MyClass:\n    attr = MyDescriptor()\n\nobj = MyClass()\nprint(obj.attr)   # calls __get__\nobj.attr = 10     # calls __set__\n🔹 How it works\n\nWhen you do:\n\nobj.attr\n\nPython actually does:\n\nMyClass.__dict__['attr'].__get__(obj, MyClass)\n🔹 Types of descriptors\n1. Data descriptor\nDefines __get__ and __set__ (or __delete__)\nHas higher priority than instance attributes\n2. Non-data descriptor\nDefines only __get__\nCan be overridden by instance attributes\n🔹 Real-world example: property\nclass Person:\n    def __init__(self, age):\n        self._age = age\n\n    @property\n    def age(self):\n        return self._age\n\n👉 @property is built using the descriptor protocol.\n\n🔹 In simple words\n\nThe descriptor protocol is like a smart middleman that intercepts attribute access and decides:\n\nwhat to return\nhow to store values\nwhether to allow changes\n🔹 Summary\nUses __get__, __set__, __delete__\nControls attribute behavior\nUsed internally by Python features like property, methods, etc.",
+          "timeTaken": 71,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:49:23.268Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "Duck typing is a concept in Python (and some other languages) where an object’s type doesn’t matter—what matters is what it can do (its behavior/methods).\n\n🔹 Simple definition\n\n“If it looks like a duck and acts like a duck, it’s a duck.”\n\n👉 In programming:\nIf an object has the required methods or behavior, it can be used—no matter its actual class.\n\n🔹 Example\nclass Dog:\n    def speak(self):\n        return \"Woof\"\n\nclass Cat:\n    def speak(self):\n        return \"Meow\"\n\ndef make_sound(animal):\n    print(animal.speak())\n\nmake_sound(Dog())\nmake_sound(Cat())\n\n👉 Both work because they have a speak() method.\n\n🔹 Key idea\nPython does not check the object type\nIt only checks whether the required method exists\n🔹 Without duck typing (strict typing mindset)\n\nYou would check type explicitly:\n\nif isinstance(animal, Dog):\n    ...\n\n👉 Duck typing avoids this and keeps code flexible.\n\n🔹 Advantages\n✅ More flexible and reusable code\n✅ Less dependency on specific classes\n✅ Encourages polymorphism\n🔹 Disadvantage\n❌ Errors may occur at runtime if method is missing\n🔹 In simple words\n\nDuck typing = “Don’t care what you are, just show me what you can do.”\n\n🔹 Summary\nFocus on behavior, not type\nWorks if required methods exist\nCommon in Python due to dynamic typing",
+          "timeTaken": 108,
+          "score": 66,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: explain, practical, understand, implement.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "concept",
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:50:00.121Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-04-04T08:48:11.396Z",
+      "total": 3,
+      "finishedAt": "2026-04-04T08:50:01.779Z"
+    },
+    {
+      "id": "aee6dc97-8e61-419d-bbf6-4275da1b1b95",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "react",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is useState hook?",
+          "difficulty": "easy",
+          "topic": "Redux",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        },
+        {
+          "q": "What is the React scheduler?",
+          "difficulty": "hard",
+          "topic": "Hooks",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        },
+        {
+          "q": "What is ReactDOM?",
+          "difficulty": "easy",
+          "topic": "State",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "The useState hook is a function in React that lets you add and manage state in functional components.\n\n🔹 Simple definition\n\nuseState allows a component to store and update data that can change over time.\n\n🔹 Syntax\nconst [state, setState] = useState(initialValue);\nstate → current value\nsetState → function to update it\ninitialValue → starting value\n🔹 Example\nimport { useState } from \"react\";\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={() => setCount(count + 1)}>\n        Increment\n      </button>\n    </div>\n  );\n}\n\n👉 Each click updates the count and re-renders the component.\n\n🔹 How it works\nReact remembers the state value between renders\nWhen you call setState, React:\nUpdates the value\nRe-renders the component\n🔹 Key features\n✅ Works only in functional components\n✅ Can store any type (number, string, array, object)\n✅ Triggers UI updates automatically\n🔹 Important note\n\nState updates are asynchronous, so don’t rely on immediate changes:\n\nsetCount(count + 1);\n\nBetter for updates based on previous state:\n\nsetCount(prev => prev + 1);\n🔹 In simple words\n\nuseState = a way to “remember and update values” inside a component",
+          "timeTaken": 32,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:51:06.377Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "The React Scheduler is an internal system in React that controls when and how updates are processed and rendered.\n\n🔹 Simple definition\n\nReact Scheduler decides:\n👉 “Which update should run first, and when should it run?”\n\n🔹 Why it’s needed\n\nIn modern apps, many things happen at once:\n\nUser clicks\nAnimations\nData fetching\nRendering UI\n\n👉 The scheduler ensures:\n\nSmooth UI (no lag)\nImportant updates happen first\n🔹 How it works (conceptually)\n\nReact breaks rendering into small tasks and schedules them based on priority.\n\nPriority examples:\n🔴 High → user input (click, typing)\n🟡 Medium → UI updates\n⚪ Low → background work\n🔹 Key feature: Interruptible rendering\n\nWith the scheduler:\n\nReact can pause a rendering task\nHandle something more important\nThen resume later\n\n👉 This is part of Concurrent Rendering in React.\n\n🔹 Example scenario\nYou type in an input box (high priority)\nA big list is rendering (low priority)\n\n👉 Scheduler pauses the list rendering\n👉 Processes your typing instantly\n👉 Then continues rendering the list\n\n🔹 Related concept: Concurrent Mode\n\nThe scheduler enables features like:\n\nTime slicing\nTransitions (startTransition)\nBetter responsiveness\n🔹 Important note\nThe Scheduler is internal (you don’t usually use it directly)\nDevelopers interact with it indirectly via APIs like:\nuseTransition\nuseDeferredValue\n🔹 In simple words\n\nReact Scheduler = traffic controller for UI updates 🚦\nIt decides what runs first to keep apps fast and smooth.\n\n🔹 Summary\nManages task priority and timing\nEnables smooth, non-blocking UI\nSupports concurrent rendering\nMostly works behind the scenes",
+          "timeTaken": 100,
+          "score": 66,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: explain, practical, understand, implement.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "concept",
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:52:14.557Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "ReactDOM is a package in React that provides methods to interact with the browser’s DOM. It is the bridge between React components and the actual HTML page.\n\n🔹 Simple definition\n\nReactDOM = “React to the DOM”\nIt takes React components and renders them as real HTML elements in the browser.\n\n🔹 Key methods\n1. ReactDOM.render() (legacy)\nimport ReactDOM from \"react-dom\";\nimport App from \"./App\";\n\nReactDOM.render(<App />, document.getElementById(\"root\"));\nRenders the <App /> component into the element with id root.\n\nNote: In React 18+, render() is replaced by createRoot().\n\n2. ReactDOM.createRoot() (modern)\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App\";\n\nconst root = ReactDOM.createRoot(document.getElementById(\"root\"));\nroot.render(<App />);\nSupports concurrent rendering\nRecommended for React 18+\n3. ReactDOM.unmountComponentAtNode()\nRemoves a component from the DOM\nReactDOM.unmountComponentAtNode(document.getElementById(\"root\"));\n4. ReactDOM.findDOMNode() (less used)\nReturns the underlying DOM element of a component\nNot recommended in modern React; refs are preferred\n🔹 Why ReactDOM exists\nReact deals with a virtual DOM\nThe browser needs real HTML elements\nReactDOM connects the virtual DOM with the actual DOM\n🔹 In simple words\n\nReactDOM = the “translator” between React components and the browser DOM 🖥️\nWithout it, React components cannot appear on the page.\n\n🔹 Summary\nRenders React components to the browser DOM\nProvides methods like render(), createRoot(), unmountComponentAtNode()\nBridges the virtual DOM with the real DOM",
+          "timeTaken": 143,
+          "score": 72,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: event, listener, parent, child.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "document",
+            "element",
+            "node"
+          ],
+          "answeredAt": "2026-04-04T08:52:57.952Z"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-04-04T08:50:33.927Z",
+      "total": 3,
+      "finishedAt": "2026-04-04T08:53:01.400Z"
+    },
+    {
+      "id": "235c4e23-b9d2-45f1-9e95-d68cc90e1a49",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "javascript",
+      "level": "1year",
+      "questions": [
+        {
+          "q": "What are JavaScript data types?",
+          "difficulty": "easy",
+          "topic": "DOM",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is destructuring?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is == vs ===?",
+          "difficulty": "easy",
+          "topic": "Events",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-04T08:55:32.010Z",
+      "total": 3
+    },
+    {
+      "id": "eb59ed87-b3cf-4aae-ac82-050ff65c04e2",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "python",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is filter function?",
+          "difficulty": "easy",
+          "topic": "OOP",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is OOP in Python?",
+          "difficulty": "medium",
+          "topic": "Async",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is virtualenv?",
+          "difficulty": "medium",
+          "topic": "Type Hints",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is global keyword?",
+          "difficulty": "easy",
+          "topic": "Type Hints",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What are dunder methods?",
+          "difficulty": "medium",
+          "topic": "Testing",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-05T18:32:35.092Z",
+      "total": 5
+    },
+    {
+      "id": "ed9c0aa6-6d8d-46e0-94c7-9fd7fee1e523",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "sql",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is ORDER BY?",
+          "difficulty": "easy",
+          "topic": "Transactions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is a stored procedure?",
+          "difficulty": "medium",
+          "topic": "Indexes",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is LEFT JOIN?",
+          "difficulty": "easy",
+          "topic": "Window Functions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is WHERE clause?",
+          "difficulty": "easy",
+          "topic": "Indexes",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is GROUP BY?",
+          "difficulty": "easy",
+          "topic": "Transactions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is INNER JOIN?",
+          "difficulty": "easy",
+          "topic": "Aggregation",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is GROUP BY?",
+          "difficulty": "easy",
+          "topic": "Normalization",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is NULL in SQL?",
+          "difficulty": "easy",
+          "topic": "Transactions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is LIKE operator?",
+          "difficulty": "easy",
+          "topic": "Aggregation",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        },
+        {
+          "q": "What is SUM function?",
+          "difficulty": "easy",
+          "topic": "Transactions",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to sql."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-19T05:57:29.789Z",
+      "total": 10
+    },
+    {
+      "id": "b60d3cdf-3cc2-4931-aaf4-90f407a04e72",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "javascript",
+      "level": "fresher",
+      "questions": [
+        {
+          "q": "What is hoisting?",
+          "difficulty": "easy",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is a callback function?",
+          "difficulty": "easy",
+          "topic": "Async",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is typeof null?",
+          "difficulty": "easy",
+          "topic": "Objects",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is a template literal?",
+          "difficulty": "easy",
+          "topic": "Arrays",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is localStorage?",
+          "difficulty": "easy",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [],
+      "status": "active",
+      "startedAt": "2026-04-19T06:04:42.897Z",
+      "total": 5
+    }
+  ],
+  "results": [
+    {
+      "id": "97bbb452-f694-4613-8ab6-27d02420636d",
+      "sessionId": "65698379-5bdd-4433-bc78-50be64bfd20c",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "javascript",
+      "level": "fresher",
+      "totalQ": 3,
+      "answeredCount": 3,
+      "avgScore": 50,
+      "grade": {
+        "letter": "C",
+        "label": "Needs Work",
+        "color": "#f59e0b"
+      },
+      "questions": [
+        {
+          "q": "What is the ternary operator?",
+          "difficulty": "easy",
+          "topic": "Events",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is hoisting?",
+          "difficulty": "easy",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        },
+        {
+          "q": "What is the spread operator?",
+          "difficulty": "easy",
+          "topic": "Async",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for javascript."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "The ternary operator is a compact way to write a simple if–else condition in a single line of code.\n\n🔹 Basic idea\n\nIt evaluates a condition and returns one of two values:\n\none if the condition is true\nanother if the condition is false\n🔹 Syntax\ncondition ? value_if_true : value_if_false;\n🔹 Example (JavaScript)\nlet age = 18;\nlet result = (age >= 18) ? \"Adult\" : \"Minor\";\nconsole.log(result); // Adult\n🔹 Equivalent if–else\nlet result;\nif (age >= 18) {\n  result = \"Adult\";\n} else {\n  result = \"Minor\";\n}\n🔹 Why use it?\nMakes code shorter and cleaner for simple conditions\nUseful for assignments and return statements",
+          "timeTaken": 72,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for javascript.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:45:01.099Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "Hoisting is a behavior in languages like JavaScript where variable and function declarations are moved to the top of their scope during compilation, before the code actually runs.\n\n🔹 What does that mean?\n\nIt means you can sometimes use a variable or function before it is declared in your code.\n\n🔹 Example (Variables with var)\nconsole.log(x); // undefined\nvar x = 5;\nWhat actually happens internally:\nvar x;\nconsole.log(x); // undefined\nx = 5;\n\n👉 The declaration is hoisted, but the assignment stays in place.\n\n🔹 Example (Functions)\ngreet(); // Works!\n\nfunction greet() {\n  console.log(\"Hello!\");\n}\n\n👉 Entire function declarations are hoisted, so you can call them before defining them.\n\n🔹 Important differences\n1. var (hoisted, initialized as undefined)\nconsole.log(a); // undefined\nvar a = 10;\n2. let and const (hoisted but not initialized)\nconsole.log(b); // ❌ ReferenceError\nlet b = 10;",
+          "timeTaken": 108,
+          "score": 89,
+          "feedback": "🌟 Outstanding answer! Excellent depth and clarity.  🎯 Interviewer tip: Explain with practical examples for javascript.",
+          "keywords": [
+            "var",
+            "let",
+            "const",
+            "declaration",
+            "top",
+            "function"
+          ],
+          "answeredAt": "2026-04-04T08:45:37.427Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "no",
+          "timeTaken": 117,
+          "score": 0,
+          "feedback": "❌ No answer provided. Always attempt even a partial explanation — partial marks are available.",
+          "keywords": [],
+          "answeredAt": "2026-04-04T08:45:45.746Z"
+        }
+      ],
+      "timeTaken": 165,
+      "completedAt": "2026-04-04T08:45:48.153Z"
+    },
+    {
+      "id": "d0326a44-9183-4917-b9d6-a0fdf0048eeb",
+      "sessionId": "eac81794-0117-4da2-8e7a-f0ccccfb722a",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "nodejs",
+      "level": "fresher",
+      "totalQ": 3,
+      "answeredCount": 3,
+      "avgScore": 60,
+      "grade": {
+        "letter": "B",
+        "label": "Average",
+        "color": "#a78bfa"
+      },
+      "questions": [
+        {
+          "q": "What is a module?",
+          "difficulty": "easy",
+          "topic": "Modules",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is __dirname?",
+          "difficulty": "easy",
+          "topic": "Event Loop",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        },
+        {
+          "q": "What is __dirname?",
+          "difficulty": "easy",
+          "topic": "Express",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to nodejs."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "A module is a self-contained piece of code that is organized to perform a specific task and can be reused in different parts of a program or in other programs.\n\n🔹 Simple definition\n\nA module = file or block of code with its own functionality, which can be imported and used elsewhere.\n\n🔹 Why modules are used\n✅ Organize large code into smaller parts\n✅ Improve readability and maintainability\n✅ Enable code reuse\n✅ Avoid global scope pollution\n🔹 Example (JavaScript)\n📁 math.js (module)\nexport function add(a, b) {\n  return a + b;\n}\n📁 app.js\nimport { add } from './math.js';\n\nconsole.log(add(2, 3)); // 5\n🔹 Types of modules (JavaScript)\n1. ES Modules (modern)\nexport const name = \"John\";\nimport { name } from './file.js';\n2. CommonJS (Node.js)\nmodule.exports = function() {};\nconst fn = require('./file');\n🔹 In simple words\n\nThink of a module like a toolbox 🧰:\n\nEach tool (function/variable) has a purpose\nYou only take what you need using import",
+          "timeTaken": 31,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:46:37.531Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "__dirname is a Node.js variable that gives the absolute path of the current file’s directory.\n\n🔹 Example\nconsole.log(__dirname);\n\n👉 Output: the folder path where the current file is located.\n\n🔹 In short\n\n__dirname = directory path of the current script",
+          "timeTaken": 58,
+          "score": 57,
+          "feedback": "⚠️  Partial answer. The core concept needs more explanation.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:47:04.560Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "__dirname is a special variable in Node.js that represents the absolute path of the directory where the currently executing file is located.\n\n🔹 What exactly is __dirname?\nIt is a global variable available in Node.js (you don’t need to import it)\nIt always returns the full directory path of the current file\nIt is not a function, just a string value\n🔹 Example\nconsole.log(__dirname);\n👉 Output (example):\n/Users/user/projects/my-app\n\nThis means your current file is inside the my-app folder.\n\n🔹 Why is it useful?\n1. Access files reliably\nconst path = require('path');\n\nconst filePath = path.join(__dirname, 'data.txt');\nconsole.log(filePath);\n\n👉 Ensures the correct file path regardless of where the script is run from.\n\n2. Avoid relative path issues\nconsole.log('./data.txt'); // depends on where you run the command\nconsole.log(__dirname);    // always correct directory\n\n👉 __dirname is consistent, while relative paths can break.\n\n3. Serve static files (common in servers)\napp.use(express.static(__dirname + '/public'));\n🔹 __dirname vs __filename\nVariable\tMeaning\n__dirname\tDirectory of current file\n__filename\tFull path including file name\nconsole.log(__filename);\n\n👉 Output example:\n\n/Users/user/projects/app/index.js\n🔹 Important notes\n1. Only in Node.js\nNot available in browsers\n2. Not available in ES Modules by default\n\nIf you use modern import syntax:\n\nimport path from 'path';\nimport { fileURLToPath } from 'url';\n\nconst __filename = fileURLToPath(import.meta.url);\nconst __dirname = path.dirname(__filename);\n🔹 In simple terms\n\nThink of __dirname like your current working folder location pinned to the file itself, not where you run the command.\n\n🔹 Summary\n__dirname gives the absolute directory path\nHelps with file handling and path management\nWorks only in Node.js (CommonJS by default)\nMore reliable than relative paths",
+          "timeTaken": 105,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to nodejs.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:47:51.492Z"
+        }
+      ],
+      "timeTaken": 108,
+      "completedAt": "2026-04-04T08:47:53.477Z"
+    },
+    {
+      "id": "bf86a9fd-6583-469d-a41a-af7da4bf83dd",
+      "sessionId": "bbfc3d5b-2d59-4e39-b302-dc30de830fca",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "python",
+      "level": "2years",
+      "totalQ": 3,
+      "answeredCount": 3,
+      "avgScore": 63,
+      "grade": {
+        "letter": "B",
+        "label": "Average",
+        "color": "#a78bfa"
+      },
+      "questions": [
+        {
+          "q": "What is Python?",
+          "difficulty": "easy",
+          "topic": "Basics",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is the descriptor protocol?",
+          "difficulty": "hard",
+          "topic": "Web",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        },
+        {
+          "q": "What is duck typing?",
+          "difficulty": "medium",
+          "topic": "Performance",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples for python."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "Python is a high-level, interpreted programming language known for its simple syntax and readability.\n\n🔹 Simple definition\n\nPython is a language used to write programs, automate tasks, analyze data, and build applications.\n\n🔹 Key features\n✅ Easy to read and write (looks almost like English)\n✅ Interpreted (runs line by line, no need to compile)\n✅ Cross-platform (works on Windows, macOS, Linux)\n✅ Large standard library\n✅ Supports multiple styles (procedural, object-oriented, functional)\n🔹 Example\nprint(\"Hello, World!\")\n🔹 What can you do with Python?\n🌐 Web development (e.g., Django, Flask)\n📊 Data analysis & visualization\n🤖 Artificial Intelligence & Machine Learning\n🔧 Automation & scripting\n🎮 Game development\n🛠️ Software development\n🔹 Why Python is popular\nBeginner-friendly\nHuge community support\nUsed by big companies like Google, Netflix, and NASA\n🔹 In short\n\nPython = simple + powerful + versatile programming language",
+          "timeTaken": 37,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:48:48.857Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "The descriptor protocol in Python is a mechanism that lets you customize how attribute access works in objects.\n\n🔹 Simple definition\n\nA descriptor is any object that defines one or more of these methods:\n\n__get__()\n__set__()\n__delete__()\n\nThese methods control what happens when you get, set, or delete an attribute.\n\n🔹 Why it exists\n\nIt allows Python to:\n\nControl attribute access\nAdd logic like validation, computed values, or lazy loading\nPower features like properties, methods, and class variables\n🔹 Basic example\nclass MyDescriptor:\n    def __get__(self, instance, owner):\n        print(\"Getting value\")\n        return 42\n\n    def __set__(self, instance, value):\n        print(\"Setting value:\", value)\n\nclass MyClass:\n    attr = MyDescriptor()\n\nobj = MyClass()\nprint(obj.attr)   # calls __get__\nobj.attr = 10     # calls __set__\n🔹 How it works\n\nWhen you do:\n\nobj.attr\n\nPython actually does:\n\nMyClass.__dict__['attr'].__get__(obj, MyClass)\n🔹 Types of descriptors\n1. Data descriptor\nDefines __get__ and __set__ (or __delete__)\nHas higher priority than instance attributes\n2. Non-data descriptor\nDefines only __get__\nCan be overridden by instance attributes\n🔹 Real-world example: property\nclass Person:\n    def __init__(self, age):\n        self._age = age\n\n    @property\n    def age(self):\n        return self._age\n\n👉 @property is built using the descriptor protocol.\n\n🔹 In simple words\n\nThe descriptor protocol is like a smart middleman that intercepts attribute access and decides:\n\nwhat to return\nhow to store values\nwhether to allow changes\n🔹 Summary\nUses __get__, __set__, __delete__\nControls attribute behavior\nUsed internally by Python features like property, methods, etc.",
+          "timeTaken": 71,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:49:23.268Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "Duck typing is a concept in Python (and some other languages) where an object’s type doesn’t matter—what matters is what it can do (its behavior/methods).\n\n🔹 Simple definition\n\n“If it looks like a duck and acts like a duck, it’s a duck.”\n\n👉 In programming:\nIf an object has the required methods or behavior, it can be used—no matter its actual class.\n\n🔹 Example\nclass Dog:\n    def speak(self):\n        return \"Woof\"\n\nclass Cat:\n    def speak(self):\n        return \"Meow\"\n\ndef make_sound(animal):\n    print(animal.speak())\n\nmake_sound(Dog())\nmake_sound(Cat())\n\n👉 Both work because they have a speak() method.\n\n🔹 Key idea\nPython does not check the object type\nIt only checks whether the required method exists\n🔹 Without duck typing (strict typing mindset)\n\nYou would check type explicitly:\n\nif isinstance(animal, Dog):\n    ...\n\n👉 Duck typing avoids this and keeps code flexible.\n\n🔹 Advantages\n✅ More flexible and reusable code\n✅ Less dependency on specific classes\n✅ Encourages polymorphism\n🔹 Disadvantage\n❌ Errors may occur at runtime if method is missing\n🔹 In simple words\n\nDuck typing = “Don’t care what you are, just show me what you can do.”\n\n🔹 Summary\nFocus on behavior, not type\nWorks if required methods exist\nCommon in Python due to dynamic typing",
+          "timeTaken": 108,
+          "score": 66,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: explain, practical, understand, implement.  🎯 Interviewer tip: Explain with practical examples for python.",
+          "keywords": [
+            "concept",
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:50:00.121Z"
+        }
+      ],
+      "timeTaken": 110,
+      "completedAt": "2026-04-04T08:50:01.780Z"
+    },
+    {
+      "id": "943f4e06-dad4-4c49-87d7-287637226de8",
+      "sessionId": "aee6dc97-8e61-419d-bbf6-4275da1b1b95",
+      "userId": "0d297a16-611a-4f26-a5da-e1e9c518eaf8",
+      "topic": "react",
+      "level": "fresher",
+      "totalQ": 3,
+      "answeredCount": 3,
+      "avgScore": 66,
+      "grade": {
+        "letter": "B",
+        "label": "Average",
+        "color": "#a78bfa"
+      },
+      "questions": [
+        {
+          "q": "What is useState hook?",
+          "difficulty": "easy",
+          "topic": "Redux",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        },
+        {
+          "q": "What is the React scheduler?",
+          "difficulty": "hard",
+          "topic": "Hooks",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        },
+        {
+          "q": "What is ReactDOM?",
+          "difficulty": "easy",
+          "topic": "State",
+          "keywords": [
+            "concept",
+            "explain",
+            "example",
+            "practical",
+            "understand",
+            "implement",
+            "compare",
+            "apply"
+          ],
+          "tip": "Explain with practical examples related to react."
+        }
+      ],
+      "answers": [
+        {
+          "questionIndex": 0,
+          "answer": "The useState hook is a function in React that lets you add and manage state in functional components.\n\n🔹 Simple definition\n\nuseState allows a component to store and update data that can change over time.\n\n🔹 Syntax\nconst [state, setState] = useState(initialValue);\nstate → current value\nsetState → function to update it\ninitialValue → starting value\n🔹 Example\nimport { useState } from \"react\";\n\nfunction Counter() {\n  const [count, setCount] = useState(0);\n\n  return (\n    <div>\n      <p>{count}</p>\n      <button onClick={() => setCount(count + 1)}>\n        Increment\n      </button>\n    </div>\n  );\n}\n\n👉 Each click updates the count and re-renders the component.\n\n🔹 How it works\nReact remembers the state value between renders\nWhen you call setState, React:\nUpdates the value\nRe-renders the component\n🔹 Key features\n✅ Works only in functional components\n✅ Can store any type (number, string, array, object)\n✅ Triggers UI updates automatically\n🔹 Important note\n\nState updates are asynchronous, so don’t rely on immediate changes:\n\nsetCount(count + 1);\n\nBetter for updates based on previous state:\n\nsetCount(prev => prev + 1);\n🔹 In simple words\n\nuseState = a way to “remember and update values” inside a component",
+          "timeTaken": 32,
+          "score": 61,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: concept, explain, practical, understand.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:51:06.377Z"
+        },
+        {
+          "questionIndex": 1,
+          "answer": "The React Scheduler is an internal system in React that controls when and how updates are processed and rendered.\n\n🔹 Simple definition\n\nReact Scheduler decides:\n👉 “Which update should run first, and when should it run?”\n\n🔹 Why it’s needed\n\nIn modern apps, many things happen at once:\n\nUser clicks\nAnimations\nData fetching\nRendering UI\n\n👉 The scheduler ensures:\n\nSmooth UI (no lag)\nImportant updates happen first\n🔹 How it works (conceptually)\n\nReact breaks rendering into small tasks and schedules them based on priority.\n\nPriority examples:\n🔴 High → user input (click, typing)\n🟡 Medium → UI updates\n⚪ Low → background work\n🔹 Key feature: Interruptible rendering\n\nWith the scheduler:\n\nReact can pause a rendering task\nHandle something more important\nThen resume later\n\n👉 This is part of Concurrent Rendering in React.\n\n🔹 Example scenario\nYou type in an input box (high priority)\nA big list is rendering (low priority)\n\n👉 Scheduler pauses the list rendering\n👉 Processes your typing instantly\n👉 Then continues rendering the list\n\n🔹 Related concept: Concurrent Mode\n\nThe scheduler enables features like:\n\nTime slicing\nTransitions (startTransition)\nBetter responsiveness\n🔹 Important note\nThe Scheduler is internal (you don’t usually use it directly)\nDevelopers interact with it indirectly via APIs like:\nuseTransition\nuseDeferredValue\n🔹 In simple words\n\nReact Scheduler = traffic controller for UI updates 🚦\nIt decides what runs first to keep apps fast and smooth.\n\n🔹 Summary\nManages task priority and timing\nEnables smooth, non-blocking UI\nSupports concurrent rendering\nMostly works behind the scenes",
+          "timeTaken": 100,
+          "score": 66,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: explain, practical, understand, implement.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "concept",
+            "example"
+          ],
+          "answeredAt": "2026-04-04T08:52:14.557Z"
+        },
+        {
+          "questionIndex": 2,
+          "answer": "ReactDOM is a package in React that provides methods to interact with the browser’s DOM. It is the bridge between React components and the actual HTML page.\n\n🔹 Simple definition\n\nReactDOM = “React to the DOM”\nIt takes React components and renders them as real HTML elements in the browser.\n\n🔹 Key methods\n1. ReactDOM.render() (legacy)\nimport ReactDOM from \"react-dom\";\nimport App from \"./App\";\n\nReactDOM.render(<App />, document.getElementById(\"root\"));\nRenders the <App /> component into the element with id root.\n\nNote: In React 18+, render() is replaced by createRoot().\n\n2. ReactDOM.createRoot() (modern)\nimport ReactDOM from \"react-dom/client\";\nimport App from \"./App\";\n\nconst root = ReactDOM.createRoot(document.getElementById(\"root\"));\nroot.render(<App />);\nSupports concurrent rendering\nRecommended for React 18+\n3. ReactDOM.unmountComponentAtNode()\nRemoves a component from the DOM\nReactDOM.unmountComponentAtNode(document.getElementById(\"root\"));\n4. ReactDOM.findDOMNode() (less used)\nReturns the underlying DOM element of a component\nNot recommended in modern React; refs are preferred\n🔹 Why ReactDOM exists\nReact deals with a virtual DOM\nThe browser needs real HTML elements\nReactDOM connects the virtual DOM with the actual DOM\n🔹 In simple words\n\nReactDOM = the “translator” between React components and the browser DOM 🖥️\nWithout it, React components cannot appear on the page.\n\n🔹 Summary\nRenders React components to the browser DOM\nProvides methods like render(), createRoot(), unmountComponentAtNode()\nBridges the virtual DOM with the real DOM",
+          "timeTaken": 143,
+          "score": 72,
+          "feedback": "👍 Good attempt. You have the right idea but could go deeper.  📌 Try to mention: event, listener, parent, child.  🎯 Interviewer tip: Explain with practical examples related to react.",
+          "keywords": [
+            "document",
+            "element",
+            "node"
+          ],
+          "answeredAt": "2026-04-04T08:52:57.952Z"
+        }
+      ],
+      "timeTaken": 147,
+      "completedAt": "2026-04-04T08:53:01.402Z"
+    }
+  ]
+}
