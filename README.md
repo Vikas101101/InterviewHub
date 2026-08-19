@@ -115,7 +115,7 @@ prepai/
     ├── css/              → styling and design
     ├── js/               → page logic
     └── images/           → logo and icons
-    
+
 ```
 
 ## Features
@@ -150,5 +150,5 @@ prepai/
 ## Developer
 
 Vikas Yadav
-Nutan College Of Engineering And Research
-2025-2026
+/n Nutan College Of Engineering And Research
+/n 2025-2026
