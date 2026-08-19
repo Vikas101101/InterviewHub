@@ -88,27 +88,35 @@ Grade scale
 
 ## Project structure
 
+```
 prepai/
-├── server.js
-├── package.json
-├── db.json
+│
+├── server.js          → starts the app
+├── package.json       → list of packages used
+├── db.json            → database (stores all data)
+│
 ├── backend/
 │   ├── routes/
-│   │   ├── auth.js
-│   │   ├── topics.js
-│   │   ├── sessions.js
-│   │   └── results.js
+│   │   ├── auth.js       → login and register
+│   │   ├── topics.js     → topics and levels
+│   │   ├── sessions.js   → interview session
+│   │   └── results.js    → scores and history
+│   │
 │   ├── middleware/
-│   │   ├── auth.js
-│   │   └── db.js
+│   │   ├── auth.js       → checks login token
+│   │   └── db.js         → reads and writes data
+│   │
 │   └── data/
-│       ├── questions.js
-│       └── evaluator.js
+│       ├── questions.js  → all 3000 questions
+│       └── evaluator.js  → AI scoring engine
+│
 └── frontend/
-    ├── index.html
-    ├── css/
-    ├── js/
-    └── images/
+    ├── index.html        → main page
+    ├── css/              → styling and design
+    ├── js/               → page logic
+    └── images/           → logo and icons
+    
+```
 
 ## Features
 
