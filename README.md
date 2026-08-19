@@ -1,6 +1,6 @@
 # InterviewHub
 
-A mock interview web app I built for my final year BCA project.
+A mock interview web app.
 You can practice interview questions topic wise, get instant scores
 and track your performance over time. Runs completely on your 
 local machine, no internet needed after setup.
